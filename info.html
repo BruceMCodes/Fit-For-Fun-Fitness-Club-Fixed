@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--
+            Name - Bruce Marshall
+            Project - Fit for Fun Fitness Club
+            Filename - info.html
+            Date - 6/25/2023
+        -->
+        <meta charset="utf-8">
+        <title>More Information</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Fit for Fun Fitness Club</h1>
+            <h2>More Information</h2>
+            <p class="navigation"> ~ <a href="index.html">Home</a> ~ <a href="classes.html">Classes</a> ~ <a href="info.html">Info</a> ~ </p>
+        </header>
+        <article>
+            <h2 class="pgThreeHdr">Have Questions? Need More Information?</h2>
+            <p class="pgThreeHdr">Fill out the form and we will reach out and help.</p>
+            <form method="get" action="thankyou.html">
+                <h2>Form:</h2>
+                <label for="FirstName">
+                    First Name: 
+                    <input type="text" autofocus name="FirstName" id="FirstName" required placeholder="First Name">
+                </label>
+                <label for="LastName">
+                    Last Name: 
+                    <input type="text" name="LastName" id="LastName" required placeholder="Last Name">
+                </label>
+                <label for="Email">
+                    Email: 
+                    <input type="email" name="Email" id="Email" placeholder="Email">
+                </label>
+                <label for="Phone">
+                    Phone: 
+                    <input type="tel" name="phone" id="Phone" placeholder="Phone Number">
+                </label>
+                <label for="Preferred contact">
+                    Best way to reach: 
+                    <select id="Preferred contact" name="Preferred contact">
+                        <option value="phone">Phone</option>
+                        <option value="email">Email</option>
+                        <option value="owl">owl</option>
+                    </select>
+                </label>
+                Classes: 
+                <div class="divClass">
+                    <input type="checkbox" id="class1" value="class1" name="Class">
+                    <label class="classesSelection" for="class1">Cross training</label>
+                </div>
+                <div class="divClass">
+                    <input type="checkbox" id="class2" value="class2" name="Class">
+                    <label class="classesSelection" for="class2">Sprint</label>
+                </div>
+                <div class="divClass">
+                    <input type="checkbox" id="class3" value="class3" name="Class">
+                    <label class="classesSelection" for="class3">Spin</label>
+                </div>
+                <div class="divClass">
+                    <input type="checkbox" id="class4" value="class4" name="Class">
+                    <label class="classesSelection" for="class4">BodyCombat</label>
+                </div>
+                <div class="divClass">
+                    <input type="checkbox" id="class5" value="class5" name="Class">
+                    <label class="classesSelection" for="class5">BodyPump</label>
+                </div>
+                <div class="divClass">
+                    <input type="checkbox" id="class6" value="class6" name="Class">
+                    <label class="classesSelection" for="class6">Step Interval</label>
+                </div>
+                <div class="divClass">
+                    <input type="checkbox" id="class7" value="class7" name="Class">
+                    <label class="classesSelection" for="class7">Advanced Cross Training</label>
+                </div>
+                <div class="divClass">
+                    <input type="checkbox" id="class8" value="class8" name="Class">
+                    <label class="classesSelection" for="class8">MixxedFIT</label>
+                </div>
+                <div class="divClass">
+                    <input type="checkbox" id="class9" value="class9" name="Class">
+                    <label class="classesSelection" for="class9">Zumba</label>
+                </div>
+                
+                Preferred class time: 
+                <div class="divClass">
+                    <input type="radio" id="AM" value="AM" name="Time">
+                    <label class="timeSelection" for="AM">AM</label>
+                    <input type="radio" id="PM" value="PM" name="Time">
+                    <label class="timeSelection" for="AM">PM</label>
+                </div>
+                Preferred day(s): 
+                <div class="divClass">
+                    <input type="checkbox" id="Sunday" value="Sunday" name="Day">
+                    <label class="daySelection" for="Sunday">Sunday</label>
+                    <input type="checkbox" id="Monday" value="Monday" name="Day">
+                    <label class="daySelection" for="Monday">Monday</label>
+                    <input type="checkbox" id="Tuesday" value="Tuesday" name="Day">
+                    <label class="daySelection" for="Tuesday">Tuesday</label>
+                    <input type="checkbox" id="Wednesday" value="Wednesday" name="Day">
+                    <label class="daySelection" for="Wednesday">Wednesday</label>
+                    <input type="checkbox" id="Thursday" value="Thursday" name="Day">
+                    <label class="daySelection" for="Thursday">Thursday</label>
+                    <input type="checkbox" id="Friday" value="Friday" name="Day">
+                    <label class="daySelection" for="Friday">Friday</label>
+                    <input type="checkbox" id="Saturday" value="Saturday" name="Day">
+                    <label class="daySelection" for="Saturday">Saturday</label>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </article>
+        <footer>
+            <p>Created by Bruce Marshall. Last updated 6/26/2023.</p>
+        </footer>
+    </body>
+</html>
